@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Poppins&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Rubik+Bubbles&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+      <div id="stopwatch">
+        STOPWATCH
+      </div>
+      <div id="screen">
+            <div class="time" id="hours">00</div>
+            <div class="time">:</div>
+            <div class="time" id="minutes">00</div>
+            <div class="time">:</div>
+            <div class="time" id="seconds">00</div>
+      </div>
+        <div id="buttons">
+        <button class="styled-button" id="start" onclick="Start()">Start</button>
+        <button class="styled-button" id="stop" onclick="Stop()">Stop</button>
+        <button class="styled-button" id="reset" onclick="Reset()">Reset</button>
+        <button class="styled-button" id="laps" onclick="Laps()">Laps</button>
+        </div>
+        <div id="time_laps_head">-:Time Lap Records:-</div>
+      <div id="time_laps">
+      </div>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
+    

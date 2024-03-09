@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#stopwatch{
+    display: flex;
+    justify-content: center;
+    padding: 10px 10px 10px 10px;
+    font-family: "Rubik Bubbles", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+
+}
+#screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 20px;
+    border: 2px solid #13e552;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.time {
+    margin: 0 5px;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: #333;
+}
+
+#buttons {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.styled-button {
+    padding: 5px 10px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #345bdb;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #f6f6f6;
+    border: 2px solid #2980b9;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    }
+
+.styled-button:hover {
+    background-color: #6aabd6;
+    border: 1px solid #3498db;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+#time_laps_head{
+    text-align: center;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    padding: 30px 0px 10px 0px;
+}
+#time_laps{
+    text-align: center;
+    justify-content: center;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px 0px;
+}
